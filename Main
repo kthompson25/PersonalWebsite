@@ -97,8 +97,8 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to Aily's Space</h1>
-        <p><a href="mailto:aily.mai@ufl.edu">aily.mai@ufl.edu</a> | <a href="https://www.linkedin.com/in/aily-mai/">LinkedIn</a> | <a href="https://github.com/AilyMai">GitHub</a></p>
+        <h1>Welcome to Kate's Space</h1>
+        <p><a href="mailto:thompsonkate@ufl.edu">thompsonkate@ufl.edu</a> | <a href="https://github.com/kthompson25">GitHub</a></p>
     </header>
 
     <nav>
@@ -110,10 +110,10 @@
     <div class="container">
         <section id="about" class="about-section">
             <h2>About Me</h2>
-            <p>Hello! I'm Aily, a junior majoring in computer engineering and economics at the University of Florida.
-                This semester, I'm delving deeper into coding in Linux whilst also learning more about frontend coding.</p>
-                <p style="margin-left: 20px;">Current Courses: Advanced Systems Programming (C/C++ in Linux), Internet Programing (HTML, CSS, Java), Signals and Systems, Engineering Statistics</p>
-                <p>In previous semesters, I have taken Microprocessors (C, AVR), OS (Linux,C++), Computer Organization (ARM), Digital Design (VHDL), and more!</p>
+            <p>Hello! I'm Kate, a freshman majoring in electrical engineering at the University of Florida.
+                This semester, I'm learning more about the fundamentals of electrical engineering.</p>
+                <p style="margin-left: 20px;">Current Courses: Digital Logic, Signals and Systems, Physics 2 (Electricity & Magnetism), UnCommon Read: Persuasion</p>
+                <p>In previous semesters, I have taken Physics 1 (Mechanics), Differential Equations, Engineering Design and Society, and more!</p>
         </section>
 
         <section id="Experience">
@@ -136,16 +136,13 @@
         <section id="contact">
             <h2>Get in Touch</h2>
             <h4>Feel free to reach out to me for collaborations or questions!</h4>
-            <p>Email: <a href="mailto:aily.mai@ufl.edu">aily.mai@ufl.edu</a></p>
-            <p>Phone number: 813-998-6461</p>
+            <p>Email: <a href="mailto:thompsonkate@ufl.edu">thompsonkate@ufl.edu</a></p>
+            <p>Phone number: 386-290-0729</p>
         </section>
     </div>
 
     <footer>
-        <p>© 2025 Aily's Homepage. All rights reserved.</p>
-        <div>
-            <h3>Quick Links</h3>
-            <a href="cis4930/index.html">CIS4930 Homepage</a>
+        <p>© 2025 Kate's Homepage. All rights reserved.</p>
         </div>
     </footer>
 </body>
