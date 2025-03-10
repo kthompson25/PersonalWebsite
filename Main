@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kate's Homepage</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 4rem 2rem;
+        }
+       
+        header a {
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.3s;
+        }
+
+        header a:hover {
+            opacity: 0.8;
+            text-decoration: underline;
+        }
+
+        nav {
+            background-color: #34495e;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #2c3e50;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .about-section {
+            background-color: #f9f9f9;
+            padding: 2rem;
+            border-radius: 8px;
+            margin: 2rem 0;
+        }
+
+        .projects-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .project-card {
+            background-color: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 2rem;
+        }
+
+        footer a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Aily's Space</h1>
+        <p><a href="mailto:aily.mai@ufl.edu">aily.mai@ufl.edu</a> | <a href="https://www.linkedin.com/in/aily-mai/">LinkedIn</a> | <a href="https://github.com/AilyMai">GitHub</a></p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#Experience">Experience</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about" class="about-section">
+            <h2>About Me</h2>
+            <p>Hello! I'm Aily, a junior majoring in computer engineering and economics at the University of Florida.
+                This semester, I'm delving deeper into coding in Linux whilst also learning more about frontend coding.</p>
+                <p style="margin-left: 20px;">Current Courses: Advanced Systems Programming (C/C++ in Linux), Internet Programing (HTML, CSS, Java), Signals and Systems, Engineering Statistics</p>
+                <p>In previous semesters, I have taken Microprocessors (C, AVR), OS (Linux,C++), Computer Organization (ARM), Digital Design (VHDL), and more!</p>
+        </section>
+
+        <section id="Experience">
+            <h2>Experience</h2>
+            <div class="projects-section">
+                <div class="project-card">
+                    <h3>Information Technology Intern at Liuna</h3>
+                    <p>Learned how to utilize Appian to simplify processes; utilized SQL to streamline data processing</p>
+                </div>
+                <div class="project-card">
+                    <h3>IOT undergrad researcher</h3>
+                    <p>Researched wireless communication devices, specifically using the ESP-32 coded with Arduino</p>
+                </div>
+                <div class="project-card">
+                    <h3>Cyber Virtual intern at Bank of America</h3>
+                    <p>Learned about the various cyber threats, working with a team to create presentations for company leaders</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Get in Touch</h2>
+            <h4>Feel free to reach out to me for collaborations or questions!</h4>
+            <p>Email: <a href="mailto:aily.mai@ufl.edu">aily.mai@ufl.edu</a></p>
+            <p>Phone number: 813-998-6461</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2025 Aily's Homepage. All rights reserved.</p>
+        <div>
+            <h3>Quick Links</h3>
+            <a href="cis4930/index.html">CIS4930 Homepage</a>
+        </div>
+    </footer>
+</body>
+</html>
